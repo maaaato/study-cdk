@@ -1,0 +1,18 @@
+apiVersion: elbv2.k8s.aws/v1alpha1
+kind: TargetGroupBinding
+metadata:
+  name: sample-tgb
+  namespace: sample-ns
+spec:
+  serviceRef:
+    name: service-sample-nginx
+    port: 80
+  targetGroupARN: arn:aws:elasticloadbalancing:ap-northeast-1:845672212599:targetgroup/sample-cluster-blue/7a089c6ac5ff54b8
+  targetType: ip
+  networking:
+    ingress:
+    - from:
+      - securityGroup:
+          groupID: sg-0dc8c0f8e84b57d73
+      ports:
+      - protocol: TCP

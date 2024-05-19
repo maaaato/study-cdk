@@ -1,0 +1,16 @@
+--2024-05-12 17:48:19--  https://github.com/kubernetes-sigs/aws-load-balancer-controller/releases/download/v2.7.0/v2_7_0_full.yaml
+github.com (github.com) をDNSに問いあわせています... 20.27.177.113
+github.com (github.com)|20.27.177.113|:443 に接続しています... 接続しました。
+HTTP による接続要求を送信しました、応答を待っています... 302 Found
+場所: https://objects.githubusercontent.com/github-production-release-asset-2e65be/84610043/999e80e8-48d5-4ae6-9354-8efc4edbd12f?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAVCODYLSA53PQK4ZA%2F20240512%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20240512T084720Z&X-Amz-Expires=300&X-Amz-Signature=17afc475eb970df11c914a658ba2c996266a00595a7cfc48ff4775119a1f525e&X-Amz-SignedHeaders=host&actor_id=0&key_id=0&repo_id=84610043&response-content-disposition=attachment%3B%20filename%3Dv2_7_0_full.yaml&response-content-type=application%2Foctet-stream [続く]
+--2024-05-12 17:48:19--  https://objects.githubusercontent.com/github-production-release-asset-2e65be/84610043/999e80e8-48d5-4ae6-9354-8efc4edbd12f?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAVCODYLSA53PQK4ZA%2F20240512%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20240512T084720Z&X-Amz-Expires=300&X-Amz-Signature=17afc475eb970df11c914a658ba2c996266a00595a7cfc48ff4775119a1f525e&X-Amz-SignedHeaders=host&actor_id=0&key_id=0&repo_id=84610043&response-content-disposition=attachment%3B%20filename%3Dv2_7_0_full.yaml&response-content-type=application%2Foctet-stream
+objects.githubusercontent.com (objects.githubusercontent.com) をDNSに問いあわせています... 185.199.111.133, 185.199.110.133, 185.199.109.133, ...
+objects.githubusercontent.com (objects.githubusercontent.com)|185.199.111.133|:443 に接続しています... 接続しました。
+HTTP による接続要求を送信しました、応答を待っています... 200 OK
+長さ: 36908 (36K) [application/octet-stream]
+`v2_7_0_full.yaml.1' に保存中
+
+     0K .......... .......... .......... ......               100% 30.9M=0.001s
+
+2024-05-12 17:48:19 (30.9 MB/s) - `v2_7_0_full.yaml.1' へ保存完了 [36908/36908]
+
